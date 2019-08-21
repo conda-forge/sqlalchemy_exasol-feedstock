@@ -1,5 +1,5 @@
 {% set name = "sqlalchemy_exasol" %}
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c2ba5c792d9a78ac9fdc28a9138e3344a5326c5a4aa0a6f0dc016bfa4736681b
+  sha256: ec31eb817ebc363354575dfb712716e0c616f253ee3085b041625f5268cfb9a4
 
 build:
   number: 0

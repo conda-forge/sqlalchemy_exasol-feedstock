@@ -1,5 +1,5 @@
 {% set name = "sqlalchemy_exasol" %}
-{% set version = "2.0.9" %}
+{% set version = "2.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 93c76873ae472778d4f4cdca57b5897b188c48118a1b6c4bd77bfd9528a371a6
+  sha256: 474ecd2b0d2be8468ca905f24cb7f03a1d7394ba677abbb0e49e44c96361528c
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -34,7 +34,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'SQLAlchemy dialect for EXASOL'
+  summary: SQLAlchemy dialect for EXASOL
 
 extra:
   recipe-maintainers:

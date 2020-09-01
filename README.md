@@ -5,7 +5,7 @@ Home: http://github.com/blue-yonder/sqlalchemy_exasol
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: SQLAlchemy dialect for EXASOL
 

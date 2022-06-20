@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.7
     - pip
     - setuptools_scm
   run:
-    - python
+    - python >=3.7
     - sqlalchemy >=1.0.4,<1.4
     - pyodbc >=4.0.32
     - six >=1.5

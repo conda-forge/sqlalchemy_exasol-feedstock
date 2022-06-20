@@ -21,8 +21,8 @@ requirements:
     - setuptools_scm
   run:
     - python
-    - sqlalchemy >=1.0.4,<2
-    - pyodbc >=3.0.6
+    - sqlalchemy >=1.0.4,<1.4
+    - pyodbc >=4.0.32
     - six >=1.5
 
 test:

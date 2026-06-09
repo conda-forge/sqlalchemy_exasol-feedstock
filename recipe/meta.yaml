@@ -1,5 +1,5 @@
 {% set name = "sqlalchemy_exasol" %}
-{% set version = "7.0.0" %}
+{% set version = "7.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ac08f916fcfe26fcea498cc747a59cec318345cd57d2c8ddafa7af274af33bcf
+  sha256: 367b82cdfd9c3c1084f2ed6f41eb1a7f23c19730d669bb9507b0033848db88f4
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - packaging >=21.3
     - pyexasol >=0.26.0,<3.0
     - python >={{ python_min }}
-    - sqlalchemy >=2.0.0,<2.0.45
+    - sqlalchemy >=2.0.0,<3
     - pyodbc >=4.0.34,<6
     - six >=1.5
 
